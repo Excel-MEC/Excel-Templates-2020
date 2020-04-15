@@ -168,9 +168,12 @@
             <div class="main-content">
                             <div id="add" align="right">
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
-                                  Add new member
-                                </button>
+                                <div class="table-data__tool.right" align ="right">
+                                            <div class="table-data__tool-right">
+                                                <button class="au-btn au-btn-icon au-btn--green au-btn--small" data-toggle="modal" data-target="#exampleModal">
+                                                    <i class="zmdi zmdi-plus"></i>Add new member</button>
+                                            </div>
+                                </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                   <div class="modal-dialog" role="document">
@@ -196,9 +199,9 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid" id="parent">
                         <div class="row" id="table_parent">
-                            <div id ="manage-user">
-                                <table class="table table-responsive table-striped" >
-                                  <thead class="thead-dark">
+                            <div id ="manage-user" class="table-responsive table--no-card m-b-30">
+                                <table class="table table-borderless table-stripped table-earning" >
+                                  <thead>
                                     <tr>
                                       <th scope="col" width="10%">Excel id</th>
                                       <th scope="col" width="=30%">Name</th>
